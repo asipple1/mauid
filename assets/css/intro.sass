@@ -1,0 +1,213 @@
+@font-face
+	font-family: signature
+	src: url("../fonts/signature.ttf")
+
+
+@font-face
+	font-family: neoteric
+	src: url("../fonts/NEOTERIC1.ttf")
+
+@font-face
+	font-family: jg
+	src: url("../fonts/Jacques_Gilles.ttf")
+
+$pink: #f1a9a0
+
+html,body
+	height: 100%
+	width: 100%
+	margin: 0
+	padding: 0
+p
+	padding: 0 !important
+
+.fp-tableCell
+	height: 100vh !important
+/* ==========================================================================
+ *Banner first page
+ *==========================================================================
+
+#banner
+	background-color: #645862
+	background-repeat: no-repeat
+	color: white
+	height: 100vh
+	background-size: cover
+	background-position: center
+	text-align: center
+	background-image: url("../images/Andy&Ally.jpg")
+
+	.inner
+		position: relative
+		display: inline-block
+		border: solid 1px white
+		width: 97.5vw
+		height: 95vh
+		margin-top: 2.5vh
+		p
+			margin-left: 400px
+		#signature
+			color: #5F5E5E
+			font: 6em 'signature', Helvetica, Arial, Verdana, sans-serif
+			background-color: transparent
+			-webkit-font-smoothing: antialiased
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)
+			:nth-child(2)
+				width: 70px
+				height: 70px
+				background: #5F5E5E
+				-moz-border-radius: 50px
+				-webkit-border-radius: 50px
+				border-radius: 50px
+				color: #fff
+				p
+					font-size: 60px
+					margin-top: -10px
+
+		#mauid
+			color: #e08283
+			font: 3em 'neoteric', Helvetica, Arial, Verdana, sans-serif
+			background-color: transparent
+			-webkit-font-smoothing: antialiased
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)
+		#hawaii
+			color: #f1a9a0
+			font: 3em 'neoteric', Helvetica, Arial, Verdana, sans-serif
+			background-color: transparent
+			-webkit-font-smoothing: antialiased
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)
+
+		#pineapple
+			position: absolute
+			height: 100px
+			width: 50px
+			right: 2%
+			bottom: 0
+			background-image: url("../images/pineapple1.png")
+			background-repeat: no-repeat
+			background-position: center
+			animation-duration: 3000ms !important
+
+/* ==========================================================================
+ *Second page
+ *==========================================================================
+
+#sun_poem
+	background-color: #645862
+	background-repeat: no-repeat
+	color: white
+	height: 100vh !important
+	background-image: url("../images/SunPoem.jpg")
+	background-size: cover
+	background-position: center
+	display: flex
+	align-items: center
+	justify-content: center
+	font-size: 2.5em
+
+	.inner
+		margin-left: -10%
+		margin-top: 5%
+		text-align: center
+
+	.sp-neo
+		font: 95% 'neoteric', Helvetica, Arial, Verdana, sans-serif
+	.sp-jg
+		font: 97%'jg', Helvetica, Arial, Verdana, sans-serif
+
+	#sp_2
+		margin-right: 10%
+
+	#sp_3
+		margin-left: 40%
+
+	#sp_5
+		margin-left: 20%
+
+	#sp_7
+		margin-left: 40%
+
+	#sp_8
+		margin-left: 20%
+
+	#sp_9
+		margin-left: 30%
+
+
+
+/* ==========================================================================
+ *Third page
+ *==========================================================================
+
+#love_poem
+	background-color: #645862
+	color: white
+	height: 100vh !important
+	background-image: url("../images/lovePoem.jpg")
+	background-size: cover
+	font-size: 2.5em
+	.inner
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100%
+		width: 100%
+
+		#love_pink
+			display: flex
+			align-items: center
+			justify-content: center
+			border: solid 1px #fff
+			background-color: rgba(241, 169, 160, 0.69)
+			height: 80%
+			width: 85%
+
+			#love_content
+				position: relative
+				display: flex
+				align-items: center
+				justify-content: center
+				background-color: #fff
+				height: 80%
+				width: 85%
+				color: black
+				text-align: center
+
+				p
+					font: 1em 'neoteric', Helvetica, Arial, Verdana, sans-serif
+				span
+					color: $pink
+
+				#love_author
+					position: absolute
+					bottom: 0
+					right: 5%
+					color: #3e4342
+					font-size: .8em
+
+/* ==========================================================================
+ *Fourth page
+ *==========================================================================
+#festivites
+	background-color: #fff
+	background-repeat: no-repeat
+	background-size: contain
+	background-position: right bottom
+	background-image: url("../images/Festivities.png")
+	color: white
+	height: 100vh !important
+	font-size: 2.5em
+	position: relative
+	.inner
+		position: absolute
+		top: 30%
+		left: 10%
+		#festivites_font
+			color: #3e4342
+			font: 2em 'signature', Helvetica, Arial, Verdana, sans-serif
+			background-color: transparent
+			-webkit-font-smoothing: antialiased
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)
+		.event_font
+			color: #AAAAAA
+			font: .8em 'neoteric', Helvetica, Arial, Verdana, sans-serif
